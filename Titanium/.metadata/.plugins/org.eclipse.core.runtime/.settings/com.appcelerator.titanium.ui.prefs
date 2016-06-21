@@ -1,0 +1,9 @@
+=run
+LAST_LAUNCH_TIMESTAMP=1463687918044
+Test1\:launchMode=run
+Test1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.48958846-18FA-4EBF-9875-6C61F3AD5A0C
+Ti\ SDK\ 4.1\ Example\ App\:launchMode=run
+Ti\ SDK\ 4.1\ Example\ App\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.48958846-18FA-4EBF-9875-6C61F3AD5A0C
+eclipse.preferences.version=1
+preference.show.console.onError=true
+preference.studio.perspective.version=103
