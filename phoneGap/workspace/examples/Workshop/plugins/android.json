@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "pankajsingh.msse.edu.asu"
+        }
+    }
+}
