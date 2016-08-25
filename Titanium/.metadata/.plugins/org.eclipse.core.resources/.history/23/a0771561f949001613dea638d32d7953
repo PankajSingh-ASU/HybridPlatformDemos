@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label" onClick="doClick">Hello, Pankaj</Label>
+		<br>
+		<TextField id="textField">Singh</TextField>
+	</Window>
+</Alloy>

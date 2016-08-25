@@ -1,0 +1,41 @@
+dependencies: \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiUIWebViewProxy.m \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiUIWebViewProxy.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiViewProxy.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiProxy.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiEvaluator.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/KrollContext.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiToJS.h \
+  headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
+  headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
+  headers/JavaScriptCore/TiObjectRef.h \
+  headers/JavaScriptCore/TiValueRef.h \
+  headers/JavaScriptCore/WebKitAvailability.h \
+  headers/JavaScriptCore/TiStringRef.h \
+  headers/JavaScriptCore/TiStringRefCF.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/KrollCallback.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/KrollObject.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiBase.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiThreading.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiPublicAPI.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiUIView.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiAnimation.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiPoint.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiDimension.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiColor.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/ListenerEntry.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiModule.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiUtils.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/WebFont.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiFile.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiBuffer.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiBlob.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/LayoutConstraint.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiGradient.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiRect.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiViewTemplate.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiUIWebView.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiHost.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/Bridge.h \
+  /Users/pankajsingh/education/AppProjectDemos/Titanium/Test1/build/iphone/Classes/TiStylesheet.h

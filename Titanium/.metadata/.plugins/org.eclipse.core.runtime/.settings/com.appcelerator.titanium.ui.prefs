@@ -1,9 +1,13 @@
 =run
-LAST_LAUNCH_TIMESTAMP=1463687918044
+LAST_LAUNCH_TIMESTAMP=1468521452023
+MoviesTest\:launchMode=run
+MoviesTest\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut
+Sample1\:launchMode=run
+Sample1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.93D157CD-D3C5-4001-A682-1784BD31E1A7
 Test1\:launchMode=run
-Test1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.48958846-18FA-4EBF-9875-6C61F3AD5A0C
+Test1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.A8A7D80B-0A36-44F0-8CB1-953E51E1591A
 Ti\ SDK\ 4.1\ Example\ App\:launchMode=run
 Ti\ SDK\ 4.1\ Example\ App\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.48958846-18FA-4EBF-9875-6C61F3AD5A0C
 eclipse.preferences.version=1
-preference.show.console.onError=true
+preference.show.console.onError=false
 preference.studio.perspective.version=103

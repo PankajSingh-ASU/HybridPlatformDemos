@@ -1,0 +1,635 @@
+
+7/15/2016, 12:04:02 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.11.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 4.4.5
+  npm Version                 = 2.15.5
+
+Titanium CLI
+  CLI Version                 = 5.0.8
+
+Titanium SDK
+  SDK Version                 = 5.3.0.GA
+  SDK Path                    = /Users/pankajsingh/Library/Application Support/Titanium/mobilesdk/osx/5.3.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/pankajsingh/.appcelerator/install/5.3.1/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.3.0.GA --project-dir /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest --target simulator --ios-version 9.3 --device-family universal --sim-type ipad --sim-version 9.3 --device-id 48958846-18FA-4EBF-9875-6C61F3AD5A0C --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50625 --config-file /var/folders/sc/x9dz_2117p138h658b2ffntr0000gn/T/build-1468609440611.json --no-banner --project-dir /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[TRACE]  [ioslib] Found iOS Simulator UDID 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[TRACE]  [ioslib] Selected iOS Simulator: iPad 2
+[TRACE]  [ioslib]   UDID    = 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[TRACE]  [ioslib]   iOS     = 9.3
+[TRACE]  [ioslib] Autoselected Xcode: 7.3.1
+[DEBUG]  Detecting modules in /Users/pankajsingh/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 5.0.0 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/android/facebook/5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.6 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/android/ti.map/2.3.6
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 5.0.1 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/facebook/5.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.map 2.5.2 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.map/2.5.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.coremotion version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.coremotion version=2.0.0 platform=iphone deploy-type=development path=/Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detecting plugins in /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/plugins/ti.alloy
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/pankajsingh/Library/Application Support/Titanium/mobilesdk/osx/5.3.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.3
+[INFO]   Building for iOS Simulator: iPad 2
+[DEBUG]  UDID: 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 9.3
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/pankajsingh/.appcelerator/install/5.3.1/package/node_modules/alloy/bin/alloy compile /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.8.7 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest
+[DEBUG]  app path = /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "run_logic_tests": false,
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  Loading "alloy.jmk" compiler hooks...
+[DEBUG]  adding task: pre:compile
+[DEBUG]  compile:trigger-> pre:load
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/pankajsingh/.appcelerator/install/5.3.1/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  
+[TRACE]  Generating ../../../../../../Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/pankajsingh/.appcelerator/install/5.3.1/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/app/assets
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/app/lib
+[TRACE]  Copying SRC_DIR/tests/specs/app_tests.js --> Resources/iphone/tests/specs/app_tests.js
+[TRACE]  Copying SRC_DIR/tests/ti-mocha.js --> Resources/iphone/tests/ti-mocha.js
+[TRACE]  Copying SRC_DIR/tests/tests_runner.js --> Resources/iphone/tests/tests_runner.js
+[TRACE]  Copying SRC_DIR/tests/should.js --> Resources/iphone/tests/should.js
+[TRACE]  Copying SRC_DIR/youtube.js --> Resources/iphone/youtube.js
+[TRACE]  Copying SRC_DIR/themoviedb.js --> Resources/iphone/themoviedb.js
+[TRACE]  Copying SRC_DIR/navigation.js --> Resources/iphone/navigation.js
+[TRACE]  Copying SRC_DIR/data.js --> Resources/iphone/data.js
+[TRACE]  Copying SRC_DIR/animation.js --> Resources/iphone/animation.js
+[TRACE]  
+[DEBUG]  Resetting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/i18n
+[DEBUG]  
+[DEBUG]  compile:trigger-> pre:compile
+[INFO]   Pre compile (development)
+[INFO]   {"run_logic_tests":false}
+[INFO]   *** Excluding tests from build
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [about.xml] view processing...
+[INFO]   style:      "about.tss"
+[INFO]   view:       "about.xml"
+[INFO]   controller: "about.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/about.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/about.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/about.js"
+[INFO]   [home.xml] view processing...
+[INFO]   style:      "home.tss"
+[INFO]   view:       "home.xml"
+[INFO]   controller: "home.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/home.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/home.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/home.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [intro.xml] view processing...
+[INFO]   style:      "intro.tss"
+[INFO]   view:       "intro.xml"
+[INFO]   controller: "intro.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/intro.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/intro.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/intro.js"
+[INFO]   [movie.xml] view processing...
+[INFO]   style:      "movie.tss"
+[INFO]   view:       "movie.xml"
+[INFO]   controller: "movie.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/movie.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/movie.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/movie.js"
+[INFO]   [movies_list.xml] view processing...
+[INFO]   style:      "movies_list.tss"
+[INFO]   view:       "movies_list.xml"
+[INFO]   controller: "movies_list.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/movies_list.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/movies_list.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/movies_list.js"
+[INFO]   [settings.xml] view processing...
+[INFO]   style:      "settings.tss"
+[INFO]   view:       "settings.xml"
+[INFO]   controller: "settings.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/settings.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/settings.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/settings.js"
+[INFO]   [views/list_cell.xml] view processing...
+[INFO]   style:      "views/list_cell.tss"
+[INFO]   view:       "views/list_cell.xml"
+[INFO]   controller: "views/list_cell.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/views/list_cell.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/views/list_cell.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/views/list_cell.js"
+[INFO]   [views/list_static_cell.xml] view processing...
+[INFO]   style:      "views/list_static_cell.tss"
+[INFO]   view:       "views/list_static_cell.xml"
+[INFO]   controller: "views/list_static_cell.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/views/list_static_cell.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/views/list_static_cell.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/views/list_static_cell.js"
+[INFO]   [views/movies_list_cell.xml] view processing...
+[INFO]   style:      "views/movies_list_cell.tss"
+[INFO]   view:       "views/movies_list_cell.xml"
+[INFO]   controller: "views/movies_list_cell.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/views/movies_list_cell.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/views/movies_list_cell.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/views/movies_list_cell.js"
+[INFO]   [views/navbar.xml] view processing...
+[INFO]   style:      "views/navbar.tss"
+[INFO]   view:       "views/navbar.xml"
+[INFO]   controller: "views/navbar.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/views/navbar.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/views/navbar.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/views/navbar.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - alloy/animation.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/animation.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/data.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/navigation.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/themoviedb.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/youtube.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[DEBUG]  compile:trigger-> post:compile
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [1.94643s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 1.94643s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  offline build file /var/folders/sc/x9dz_2117p138h658b2ffntr0000gn/T/build-e653760739ff5d9fdeadf220cd303bb454f543cd.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"pankajsingh.asu@gmail.com","session":"41aaae56bcb4afe75adb86fa1cc54f1499b31d85 2a4zvFo/y/qPTwM4JTxDUK0dCaAyPOKGxV2cHmTs8yWyKvAqNt79dxF9RfRg1Vqn6FPiWHzwDdblAhOAwgXlo3Fk1gjrzrW4KteOCWmu9WeXrhRt/OM/XMUz7ZjscqQg161lJgwo1TIEd+BG7QxCilm8tk/jd6jAuckleXw/CaWYqVVNeF1NReFsYoRUYnIqrKmaGyYj2PyMjGLL1XAkZWn402r9GBkXJlUuulrTWIH27zUnIZNvH7oGYlJt5a7PdlIXPh5zKpBl8myZB66mEeQBk4OBgg7lcjjHxIauXfCIGqGatKjyMw4MSYuqqVZ6DBO68pVWoTB8C+yi5lsjhCNHI0DRrMCqNGH0FE0LBoZlELmTk7jIHSBg9CoXW1V5HyKWz4m9bEGaM0y5UI8qECHRcyK3wtUtbBhS28/MJ1MglSw9cu1jbwoTZk4xIsdFaebKNDe5pSsD/pHIXKojKJ6p0MwPIRFLcSdrD3fZ+Oyy4WWreFdSd6lP3Qp8nvQT3i5boE0CS3s3SWZZZwTZOpF2Lm9Vr44lxsvqSxozhL4eAfqVwGCV7W5OJJfFRpvtnNtyEXz4xlrTpiC7LlsiPZ/sfZkzf2Xl65UiMDjy5a/cP9k8k+HfSQTfW1iASXdTVunG5MVujmOioQlHox/cVtL0AHEuiNMeemW+HJxple2Fy+wO1oOc09YcQcS5iJz2J2+dnPqwYbZ+wRp6myN8Qv8Jiv002oET4gGJ6cbAwMg1vizraUHxFIahKzux46fbrqPXWBPL7lmOlrE5anWB81ioh84d8rg00LYXcZokVvQ=","ipaddress":"10.143.231.9","fingerprint":"79937c9f32d5330dccc4495ff49199d74a8c4bce","fingerprint_description":"Mac OSX Serial Number: C02Q80DLFVH4","guid":"9d13582e-7362-4642-9aaa-1a8ede5d42a2","appid":"com.appcelerator.movies","name":"Movies","org_id":100119056,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.appcelerator.movies</id>\n  <name>Movies</name>\n  <version>1.0.1</version>\n  <publisher>Appcelerator</publisher>\n  <url>http://www.appcelerator.com</url>\n  <description>Movies app</description>\n  <copyright>2015 by Appcelerator</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>true</navbar-hidden>\n  <analytics>false</analytics>\n  <guid>9d13582e-7362-4642-9aaa-1a8ede5d42a2</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <true/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleLightContent</string>\n        <key>CFBundleURLTypes</key>\n        <array/>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb/>\n    <modules>\n      <module platform=\"iphone\">ti.coremotion</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">true</target>\n    </deployment-targets>\n    <sdk-version>5.3.0.GA</sdk-version>\n    <plugins>\n      <plugin version=\"1.0\">ti.alloy</plugin>\n    </plugins>\n    <property name=\"appc-app-id\" type=\"string\">577cad82ca70e2c762ff5032</property>\n  </ti:app>","modules":[{"id":"ti.coremotion","platform":["iphone"],"deployType":["development"],"modulePath":"/Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0","version":"2.0.0","manifest":{"version":"2.0.0","apiversion":"2","architectures":"armv7 arm64 i386 x86_64","description":"ti.coremotion","author":"Hans Knoechel","license":"Apache","copyright":"Copyright (c) 2015 by Appcelerator Inc.","name":"ti.coremotion","moduleid":"ti.coremotion","guid":"bba89061-0fdb-4ff1-95a8-02876f5601f9","platform":"iphone","minsdk":"5.0.0"},"native":true,"libName":"libti.coremotion.a","libFile":"/Users/pankajsingh/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0/libti.coremotion.a","hash":"ffb161932e3448ed1ff82a12624b1543"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"bY0D5FCZ0Zyee2pwLO7beA==","pepper":"UeQYAU2WjwOF1r26MKFWyQ==","hmacKey":"q14YZAcZMdYcu/BAqsVcoA==","o":100119056,"u":"8f96d58c-1407-4dca-b35b-2be1997846fd","p":"free","i":"578933a694e9c8092da91631","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 1 native module library
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Movies.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Movies.entitlements
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Movies_Prefix.pch
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Movies.xcodeproj/xcshareddata/xcschemes/Movies.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/debugger.plist
+[DEBUG]  Skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72@2x.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon@2x.png, skipping
+[TRACE]  Found generated 29x29 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[WARN]   Missing 3 launch images:
+[WARN]     Default
+[WARN]       Default-Landscape.png - Used for iPad - dimensions: 1024x768, orientation: landscape
+[WARN]       Default-Landscape@2x.png - Used for iPad - dimensions: 2048x1536, orientation: landscape
+[WARN]       Default-Landscape-736h@3x.png - Used for iPhone - dimensions: 2208x1242, orientation: landscape
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/appcelerator_logo.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/appcelerator_logo.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/appcelerator_logo.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/back_button@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/back_button@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/back_button@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/clapper_bottom@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/clapper_bottom@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/clapper_bottom@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/clapper_top@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/clapper_top@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/clapper_top@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/config.json
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data/config.json => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/config.json
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/genre.json
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data/genre.json => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/genre.json
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/genres.json
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data/genres.json => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/genres.json
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/list.json
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data/list.json => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/list.json
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/lists.json
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data/lists.json => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/lists.json
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/movie.json
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data/movie.json => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/data/movie.json
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/fonts/FontAwesome.otf
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/fonts/FontAwesome.otf => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/fonts/FontAwesome.otf
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/logo_1200.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/logo_1200.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/logo_1200.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/play_button.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/play_button.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/play_button.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/play_button_down.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/play_button_down.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/play_button_down.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/search_icon@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/search_icon@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/search_icon@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/platform/ios/alloy_generated => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/alloy_generated
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/Default-568h@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/Default-667h@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/Default-Portrait-736h@3x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/Default-Portrait.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/Default-Portrait@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/Default@2x.png => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/CFG.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/CFG_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/alloy/animation.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/animation_js
+[DEBUG]  Overwriting /var/folders/sc/x9dz_2117p138h658b2ffntr0000gn/T/liveview.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/app_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/backbone.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/backbone_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/constants.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/constants_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/BaseController.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/BaseController_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/about.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/about_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/home.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/home_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/index.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/index_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/intro.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/intro_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/movie.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/movie_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/movies_list.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/movies_list_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/settings.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/settings_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/views/list_cell.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/views/list_cell_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/views/list_static_cell.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/views/list_static_cell_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/views/movies_list_cell.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/views/movies_list_cell_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/controllers/views/navbar.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/controllers/views/navbar_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/about.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/about_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/home.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/home_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/index.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/index_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/intro.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/intro_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/movie.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/movie_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/movies_list.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/movies_list_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/settings.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/settings_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/views/list_cell.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/views/list_cell_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/views/list_static_cell.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/views/list_static_cell_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/views/movies_list_cell.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/views/movies_list_cell_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/styles/views/navbar.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/styles/views/navbar_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/sync/localStorage.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/sync/localStorage_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/sync/properties.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/sync/properties_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/sync/sql.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/sync/sql_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/underscore.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/underscore_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy/widget.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy/widget_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/alloy.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/alloy_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/animation.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/animation_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/data.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/data_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/navigation.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/navigation_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/themoviedb.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/themoviedb_js
+[DEBUG]  Overwriting /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/Resources/iphone/youtube.js => /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/youtube_js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets/_app_props__json
+[INFO]   Encrypting JavaScript files
+[DEBUG]  Preparing alloy/CFG_js
+[DEBUG]  Preparing alloy/animation_js
+[DEBUG]  Preparing app_js
+[DEBUG]  Preparing alloy/backbone_js
+[DEBUG]  Preparing alloy/constants_js
+[DEBUG]  Preparing alloy/controllers/BaseController_js
+[DEBUG]  Preparing alloy/controllers/about_js
+[DEBUG]  Preparing alloy/controllers/home_js
+[DEBUG]  Preparing alloy/controllers/index_js
+[DEBUG]  Preparing alloy/controllers/intro_js
+[DEBUG]  Preparing alloy/controllers/movie_js
+[DEBUG]  Preparing alloy/controllers/movies_list_js
+[DEBUG]  Preparing alloy/controllers/settings_js
+[DEBUG]  Preparing alloy/controllers/views/list_cell_js
+[DEBUG]  Preparing alloy/controllers/views/list_static_cell_js
+[DEBUG]  Preparing alloy/controllers/views/movies_list_cell_js
+[DEBUG]  Preparing alloy/controllers/views/navbar_js
+[DEBUG]  Preparing alloy/styles/about_js
+[DEBUG]  Preparing alloy/styles/home_js
+[DEBUG]  Preparing alloy/styles/index_js
+[DEBUG]  Preparing alloy/styles/intro_js
+[DEBUG]  Preparing alloy/styles/movie_js
+[DEBUG]  Preparing alloy/styles/movies_list_js
+[DEBUG]  Preparing alloy/styles/settings_js
+[DEBUG]  Preparing alloy/styles/views/list_cell_js
+[DEBUG]  Preparing alloy/styles/views/list_static_cell_js
+[DEBUG]  Preparing alloy/styles/views/movies_list_cell_js
+[DEBUG]  Preparing alloy/styles/views/navbar_js
+[DEBUG]  Preparing alloy/sync/localStorage_js
+[DEBUG]  Preparing alloy/sync/properties_js
+[DEBUG]  Preparing alloy/sync/sql_js
+[DEBUG]  Preparing alloy/underscore_js
+[DEBUG]  Preparing alloy/widget_js
+[DEBUG]  Preparing alloy_js
+[DEBUG]  Preparing animation_js
+[DEBUG]  Preparing data_js
+[DEBUG]  Preparing navigation_js
+[DEBUG]  Preparing themoviedb_js
+[DEBUG]  Preparing youtube_js
+[DEBUG]  Preparing _app_props__json
+[DEBUG]  Running /Users/pankajsingh/Library/Application Support/Titanium/mobilesdk/osx/5.3.0.GA/iphone/titanium_prep "com.appcelerator.movies" "/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/assets"
+[DEBUG]  Writing application routing source file: /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  Compiling localization files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Logs/Build/D351AD18-3303-40BF-ACB0-708FA16E6686.xcactivitylog
+[DEBUG]  Removing empty directories
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Movies -configuration Debug -scheme Movies -derivedDataPath /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone OBJROOT=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products -destination "platform=iOS Simulator,id=48958846-18FA-4EBF-9875-6C61F3AD5A0C,OS=9.3"
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products
+[TRACE]  
+[TRACE]  === BUILD TARGET Movies OF PROJECT Movies WITH CONFIGURATION Debug ===
+[TRACE]  Check dependencies
+[TRACE]  warning: Capabilities that require entitlements from "Movies.entitlements" may not function in the Simulator because no development team was selected and no non–expired provisioning profiles were found. Select a development team in the target editor.
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/ApplicationRouting.o Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -fmodules-cache-path=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=development -D__LOG__ID__=9d13582e-7362-4642-9aaa-1a8ede5d42a2 -DDEBUG=1 -DTI_VERSION=5.3.0 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-generated-files.hmap -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-own-target-headers.hmap -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-all-target-headers.hmap -iquote /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-project-headers.hmap -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/libxml2 -Iheaders -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/DerivedSources/i386 -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/DerivedSources -F/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator -DDEBUG -include /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/PrecompiledHeaders/Movies_Prefix-bieuotlhkxjpyhcvzfoulzxgyeeu/Movies_Prefix.pch -MMD -MT dependencies -MF /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/ApplicationRouting.d --serialize-diagnostics /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/ApplicationRouting.dia -c /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/ApplicationRouting.m -o /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/ApplicationRouting.o Classes/ApplicationRouting.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -fmodules-cache-path=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=development -D__LOG__ID__=9d13582e-7362-4642-9aaa-1a8ede5d42a2 -DDEBUG=1 -DTI_VERSION=5.3.0 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-generated-files.hmap -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-own-target-headers.hmap -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-all-target-headers.hmap -iquote /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Movies-project-headers.hmap -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/libxml2 -Iheaders -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/DerivedSources/x86_64 -I/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/DerivedSources -F/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator -DDEBUG -include /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/PrecompiledHeaders/Movies_Prefix-bmjbibshjfhyjualvhsyjsmgbkjq/Movies_Prefix.pch -MMD -MT dependencies -MF /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/ApplicationRouting.d --serialize-diagnostics /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/ApplicationRouting.dia -c /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/ApplicationRouting.m -o /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/ApplicationRouting.o
+[TRACE]  
+[TRACE]  Ld build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/Movies normal i386
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/lib -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/APSAnalytics -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/APSHTTPClient -L/Users/pankajsingh/Library/Application\ Support/Titanium/modules/iphone/ti.coremotion/2.0.0 -F/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/Movies.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -lti.coremotion -Xlinker -dependency_info -Xlinker /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/Movies_dependency_info.dat -o /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/Movies
+[TRACE]  
+[TRACE]  Ld build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/Movies normal x86_64
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/lib -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/APSAnalytics -L/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Classes/APSHTTPClient -L/Users/pankajsingh/Library/Application\ Support/Titanium/modules/iphone/ti.coremotion/2.0.0 -F/Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/Movies.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -lti.coremotion -Xlinker -dependency_info -Xlinker /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/Movies_dependency_info.dat -o /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/Movies
+[TRACE]  
+[TRACE]  CreateUniversalBinary build/Products/Debug-iphonesimulator/Movies.app/Movies normal i386\ x86_64
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/i386/Movies /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/Objects-normal/x86_64/Movies -output /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/Movies
+[TRACE]  
+[TRACE]  CompileAssetCatalog build/Products/Debug-iphonesimulator/Movies.app Assets.xcassets
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/assetcatalog_dependencies --output-partial-info-plist /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPad2,1 --filter-for-device-os-version 9.3 --target-device iphone --target-device ipad --minimum-deployment-target 7.1 --platform iphonesimulator --compile /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets
+[TRACE]  /* com.apple.actool.document.warnings */
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[ipad][][1x][portrait][full-screen][7.0]: warning: LaunchImage.launchimage/Default-Portrait.png is 768x1004 but should be 768x1024.
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][7.0]: warning: LaunchImage.launchimage/Default-Portrait@2x.png is 1536x2008 but should be 1536x2048.
+[TRACE]  /* com.apple.actool.document.notices */
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /* com.apple.actool.compilation-results */
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon29x29@2x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon29x29@3x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon40x40@2x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon40x40@3x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon60x60@2x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon60x60@3x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon29x29~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon29x29@2x~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon40x40~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon40x40@2x~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon76x76~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon76x76@2x~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/AppIcon83.5x83.5@2x~ipad.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/LaunchImage-800-Portrait-736h@3x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/LaunchImage-800-667h@2x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/LaunchImage-700@2x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/LaunchImage-700-568h@2x.png
+[TRACE]  /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/assetcatalog_generated_info.plist
+[TRACE]  
+[TRACE]  ProcessInfoPlistFile build/Products/Debug-iphonesimulator/Movies.app/Info.plist Info.plist
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      builtin-infoPlistUtility /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/Info.plist -genpkginfo /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Intermediates/Movies.build/Debug-iphonesimulator/Movies.build/assetcatalog_generated_info.plist -o /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/Info.plist
+[TRACE]  
+[TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/Movies.app.dSYM build/Products/Debug-iphonesimulator/Movies.app/Movies
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/Movies -o /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app.dSYM
+[TRACE]  
+[TRACE]  CopySwiftLibs build/Products/Debug-iphonesimulator/Movies.app
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk
+[TRACE]      export TOOLCHAINS=com.apple.dt.toolchain.iOS9_3
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-stdlib-tool --copy --verbose --scan-executable /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/Movies --scan-folder /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/Frameworks --scan-folder /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/iAd.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreMedia.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreMotion.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreText.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/EventKitUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Security.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/UIKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreGraphics.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AddressBook.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AddressBookUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CFNetwork.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreLocation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MapKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MessageUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/OpenGLES.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/QuartzCore.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AudioToolbox.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MediaPlayer.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AVFoundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/StoreKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/ExternalAccessory.framework --platform iphonesimulator --destination /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app/Frameworks --strip-bitcode
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphonesimulator/Movies.app
+[TRACE]      cd /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin://anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin"
+[TRACE]      /usr/bin/touch -c /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app
+[TRACE]  
+[TRACE]  ** BUILD SUCCEEDED **
+[INFO]   Finished building the application in 18s 132ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPad 2
+[TRACE]  [ioslib]   UDID    = 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[TRACE]  [ioslib]   iOS     = 9.3
+[TRACE]  [ioslib] Autoselected Xcode: 7.3.1
+[TRACE]  [ioslib] iPad 2 Simulator is running, but not in a booted state, stopping simulator
+[TRACE]  [ioslib] Tailing iPad 2 Simulator system log: /Users/pankajsingh/Library/Logs/CoreSimulator/48958846-18FA-4EBF-9875-6C61F3AD5A0C/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[TRACE]  [ioslib] iPad 2 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 48958846-18FA-4EBF-9875-6C61F3AD5A0C
+[TRACE]  [ioslib] iPad 2 Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/pankajsingh/Library/Application Support/Titanium/mobilesdk/osx/5.3.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPad 2 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 48958846-18FA-4EBF-9875-6C61F3AD5A0C /Users/pankajsingh/education/AppProjectDemos/Titanium/MoviesTest/build/iphone/build/Products/Debug-iphonesimulator/Movies.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 48958846-18FA-4EBF-9875-6C61F3AD5A0C com.appcelerator.movies
+[TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/pankajsingh/Library/Developer/CoreSimulator/Devices/48958846-18FA-4EBF-9875-6C61F3AD5A0C/data/Containers/Data/Application/E506E45C-F864-42B6-8B9F-3A41541C80FE/Documents/9d13582e-7362-4642-9aaa-1a8ede5d42a2.log
+[TRACE]  [Movies] assertion failed: 15F34 13E230: libxpc.dylib + 71506 [6F98A9DA-B46E-3A2B-88D4-92F1EC77477F]: 0x7d
