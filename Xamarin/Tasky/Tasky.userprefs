@@ -1,19 +1,10 @@
-﻿<Properties StartupItem="TaskyiOS/TaskyiOS.csproj">
+﻿<Properties StartupConfiguration="{08FAE550-E302-4022-A871-17E0462E99F3}|Default">
   <MonoDevelop.Ide.ItemProperties.TaskyAndroid AndroidDesignerPreferredDevice="Nexus 4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyiOS/EditingSource.cs">
-    <Files>
-      <File FileName="TaskySharedCode/TodoDatabaseADO.cs" Line="30" Column="39" />
-      <File FileName="TaskySharedCode/TodoItem.cs" Line="1" Column="1" />
-      <File FileName="TaskySharedCode/TodoItemManager.cs" Line="1" Column="1" />
-      <File FileName="TaskySharedCode/TodoItemRepositoryADO.cs" Line="1" Column="1" />
-      <File FileName="TaskyiOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="TaskyiOS/EditingSource.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TaskyiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.93D157CD-D3C5-4001-A682-1784BD31E1A7" />
+  <MonoDevelop.Ide.ItemProperties.TaskyiOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7FC33703-2C3E-47E5-99DC-FF68E2EEE40D" />
 </Properties>

@@ -1,0 +1,4 @@
+GeocodeAddress.Activity1, GeocodeAddress;md5cd6663f1ced4adebf11d161e66812181.Activity1
+GeocodeAddress.Activity1, GeocodeAddress, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cd6663f1ced4adebf11d161e66812181.Activity1
+GeocodeAddress.Activity1;md5cd6663f1ced4adebf11d161e66812181.Activity1
+geocodeaddress.Activity1;md5cd6663f1ced4adebf11d161e66812181.Activity1

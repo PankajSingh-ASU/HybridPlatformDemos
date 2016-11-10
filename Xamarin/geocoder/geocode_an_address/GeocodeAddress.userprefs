@@ -1,0 +1,9 @@
+﻿<Properties StartupConfiguration="{70788C76-9643-4C4F-AE2E-EB10053AB5C0}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GeocodeAddress PreferredExecutionTarget="Android.Nexus5" />
+</Properties>
